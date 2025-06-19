@@ -22,23 +22,19 @@ This project is a simple WhatsApp bot built using **Java**, **Spring Boot**, and
 - Firebase (for storage/authentication)
 - Maven
 - GitHub
+  
 
 ---
 
 ## ▶️ How to Run the Project
+Run the application on Windows CMD:
+mvnw.cmd spring-boot:run
+Send a test message
+Open your browser or Postman and go to:
+http://localhost:8080/send-message
 
 1. **Clone this repository**
    ```bash
    git clone https://github.com/rautprerna/whatsapp-bot.git
    cd whatsapp-bot
-whatsapp-bot/
-├── src/
-│   ├── main/
-│   │   ├── java/com/example/whatsapp_bot/
-│   │   │   ├── WhatsappBotApplication.java
-│   │   │   └── controller/WhatsAppController.java
-│   │   └── resources/
-│   │       └── application.properties
-├── .gitignore
-├── pom.xml
-└── README.md
+
