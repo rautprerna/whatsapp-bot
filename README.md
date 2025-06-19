@@ -31,3 +31,14 @@ This project is a simple WhatsApp bot built using **Java**, **Spring Boot**, and
    ```bash
    git clone https://github.com/rautprerna/whatsapp-bot.git
    cd whatsapp-bot
+whatsapp-bot/
+├── src/
+│   ├── main/
+│   │   ├── java/com/example/whatsapp_bot/
+│   │   │   ├── WhatsappBotApplication.java
+│   │   │   └── controller/WhatsAppController.java
+│   │   └── resources/
+│   │       └── application.properties
+├── .gitignore
+├── pom.xml
+└── README.md
